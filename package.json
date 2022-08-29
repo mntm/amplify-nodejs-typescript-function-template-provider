@@ -1,0 +1,31 @@
+{
+  "name": "amplify-nodejs-typescript-function-template-provider",
+  "version": "1.0.0",
+  "description": "NodeJS template for TypeScript Lambda Functions",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib tsconfig.tsbuildinfo node_modules"
+  },
+  "author": "Tsiry Marcel",
+  "license": "Apache-2.0",
+  "keywords": [
+    "aws",
+    "amplify",
+    "lambda",
+    "nodejs",
+    "typescript"
+  ],
+  "dependencies": {
+    "amplify-cli-core": "2.12.0",
+    "amplify-function-plugin-interface": "1.9.5",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash": "^4.14.184",
+    "@types/node": "^12.12.6",
+    "nodemon": "^2.0.19",
+    "rimraf": "^3.0.2"
+  }
+}

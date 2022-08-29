@@ -1,0 +1,20 @@
+{
+  "name": "functionTemplate",
+  "type": "util",
+  "commands": [],
+  "eventHandlers": [],
+  "functionTemplate": {
+    "pluginId": "amplify-nodejs-typescript-function-template-provider",
+    "conditions": {
+      "provider": "awscloudformation",
+      "services": ["Lambda","LambdaLayer"],
+      "runtime": "nodejs"
+    },
+    "templates": [
+      {
+        "name": "Basic (TS/ESM)",
+        "value": "basic-ts-esm"
+      }
+    ]
+  }
+}
