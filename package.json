@@ -1,6 +1,6 @@
 {
   "name": "amplify-nodejs-typescript-function-template-provider",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "NodeJS template for TypeScript Lambda Functions",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
