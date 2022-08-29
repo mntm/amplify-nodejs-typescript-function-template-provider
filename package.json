@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "NodeJS template for TypeScript Lambda Functions",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf lib tsconfig.tsbuildinfo node_modules"
   },
   "author": "Tsiry Marcel",
   "license": "Apache-2.0",
+  "files": [
+    "lib",
+    "resources",
+    ".gitignore",
+    "amplify-plugin.json",
+    "package.json"
+  ],
   "keywords": [
     "aws",
     "amplify",
@@ -27,5 +35,16 @@
     "@types/node": "^12.12.6",
     "nodemon": "^2.0.19",
     "rimraf": "^3.0.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mntm/amplify-nodejs-typescript-function-template-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mntm/amplify-nodejs-typescript-function-template-provider/issues"
+  },
+  "homepage": "https://github.com/mntm/amplify-nodejs-typescript-function-template-provider#readme"
 }
